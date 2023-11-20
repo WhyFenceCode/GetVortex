@@ -52,7 +52,9 @@ body {
   grid-area: logo;
 }
 
-
+ #homelogo {
+    object-fit: contain;
+  }
 
 .getitbutton { grid-area: getitbutton; }
 
