@@ -49,10 +49,10 @@ body {
 }
 
 .logo { 
-  grid-area: logo; 
-  background-image: url("HomePage.png");
-  object-fit: contain;
+  grid-area: logo;
 }
+
+
 
 .getitbutton { grid-area: getitbutton; }
 
