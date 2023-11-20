@@ -23,7 +23,17 @@ body {
     "footer footer footer";
 }
 
-.opening { grid-area: opening; }
+.opening {  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 5fr 1fr 2fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "logo"
+    "."
+    "getitbutton";
+  grid-area: opening;
+}
 
 .progress { grid-area: progress; }
 
@@ -34,5 +44,3 @@ body {
 .themes { grid-area: themes; }
 
 .footer { grid-area: footer; }
-
-  
