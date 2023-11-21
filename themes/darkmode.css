@@ -211,6 +211,6 @@ input:checked + .slider {
 }
 
 /*Webiste Security Area*/
-.security-text {
+.securitytext {
     backgroundcolor: var(--tab-background);
 }
