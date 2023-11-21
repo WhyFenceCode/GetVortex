@@ -208,3 +208,12 @@ input:checked + .slider {
 .getitbutton a {
   color: whitesmoke;
 }
+
+/*Website*/
+.getitbutton a:before {
+  background-color: whitesmoke;
+}
+
+.getitbutton a {
+  color: whitesmoke;
+}
