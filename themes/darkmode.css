@@ -209,3 +209,8 @@ input:checked + .slider {
 .getitbutton a {
   color: whitesmoke;
 }
+
+/*Webiste Security Area*/
+.security-text {
+    background-color: var(--tab-background);
+}
