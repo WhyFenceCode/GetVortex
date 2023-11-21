@@ -207,3 +207,12 @@ input:checked + .slider {
     background-color: var(--tabs-background);
     color: whitesmoke;
 }
+
+/*Website*/
+.getitbutton a:before {
+  background-color: black;
+}
+
+.getitbutton a {
+  color: black;
+}
