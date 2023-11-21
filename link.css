@@ -30,6 +30,8 @@
 
 #comingsoon:after {
   content:"";
+  animation: comingSoonAnim 1s;
+  animation-direction: reverse;
 }
 
 #comingsoon:hover:after {
