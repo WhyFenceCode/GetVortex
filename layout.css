@@ -38,13 +38,11 @@ body {
 
 .logo { 
   grid-area: logo;
-  /*
   animation: fadeIn 1s;
   -webkit-animation: fadeIn 1s;
   -moz-animation: fadeIn 1s;
   -o-animation: fadeIn 1s;
   -ms-animation: fadeIn 1s;
-  */
 }
 
  #homelogo {
@@ -53,12 +51,10 @@ body {
 
 .getitbutton { 
   grid-area: getitbutton;
-  /*
   -webkit-animation: fadeInDel 1s;
   -moz-animation: fadeInDel 1s;
   -o-animation: fadeInDel 1s;
   -ms-animation: fadeInDel 1s;
-  */
 }
 
 .progress { grid-area: progress; }
@@ -70,7 +66,6 @@ body {
 .themes { grid-area: themes; }
 
 .footer { grid-area: footer; }
-/*
 
 @keyframes fadeIn {
   0% { opacity: 0; }
@@ -121,4 +116,3 @@ body {
   50% { opacity: 0; }
   100% { opacity: 1; }
 }
-*/
