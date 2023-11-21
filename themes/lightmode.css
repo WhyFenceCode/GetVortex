@@ -3,8 +3,8 @@
 /*Main*/
 :root {
     --gray: #212020;
-    --tabs-background: #9e9e9f;
-    --tab-selected: #d6d7d8;
+    --tabs-background: #d6d7d8;
+    --tab-selected: #9e9e9f;
     --icon-filter: brightness(0) saturate(100%);
 }
 
