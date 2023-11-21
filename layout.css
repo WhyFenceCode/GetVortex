@@ -71,7 +71,9 @@ body {
   grid-area: security; 
 }
 .security-image { grid-area: security-image; }
-.security-text { grid-area: security-text; }
+.securitytext { 
+  grid-area: security-text; 
+}
 
 .features { grid-area: features; }
 
