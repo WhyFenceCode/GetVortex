@@ -26,9 +26,13 @@
 .getitbutton a:hover:before {
   opacity: 1;
   -webkit-transform: scaleX(1);
-}
+
 
 #comingsoon:after {
+  content:"";
+}
+
+#comingsoon:hover:after {
   content:"";
   animation: comingSoonAnim 1s;
 }
