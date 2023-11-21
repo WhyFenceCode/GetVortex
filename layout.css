@@ -12,16 +12,16 @@ body {
   gap: 0px 0px;
   grid-auto-flow: row;
   grid-template-areas:
-    ". . . "
-    ". progress opening"
-    ". progress . ."
-    ". progress security"
-    ". progress . ."
-    ". progress features"
-    ". progress . ."
-    ". progress themes"
-    ". progress ."
-    ". progress roadmap"
+    ". . ."
+    "progress . opening"
+    "progress . ."
+    "progress . security"
+    "progress . ."
+    "progress . features"
+    "progress . ."
+    "progress . themes"
+    "progress . ."
+    "progress . roadmap"
     ". . ."
     "footer footer footer";
 }
