@@ -49,11 +49,6 @@ body {
     object-fit: contain;
   }
 
-.secondtitle {
-  padding: 0;
-  margin: 0;
-}
-
 .getitbutton { 
   grid-area: getitbutton;
   -webkit-animation: fadeInDel 1s;
