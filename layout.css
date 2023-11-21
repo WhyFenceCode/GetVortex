@@ -36,18 +36,6 @@ body {
   grid-area: opening;
 }
 
-
-.container {  display: grid;
-  grid-template-columns: 2fr 1fr 12fr;
-  grid-template-rows: 3fr 5fr 2fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas:
-    ". . ."
-    ". progress opening"
-    ". progress .";
-}
-
 .logo { 
   grid-area: logo;
   animation: fadeIn 1s;
