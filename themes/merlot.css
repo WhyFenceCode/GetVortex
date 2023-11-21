@@ -200,3 +200,11 @@ input:checked + .slider {
     background-color: var(--tabs-background);
     color: whitesmoke;
 }
+
+.getitbutton a:before {
+  background-color: whitesmoke;
+}
+
+.getitbutton a {
+  color: whitesmoke;
+}
