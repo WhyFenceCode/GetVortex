@@ -69,7 +69,7 @@ body {
   grid-area: security; 
 }
 .security-image { grid-area: 1 / 1 / 3 / 3; }
-.security-text { grid-area: 2 / 2 / 4 / 4; }
+.securitytext { grid-area: 2 / 2 / 4 / 4; }
 
 .features { grid-area: features; }
 
