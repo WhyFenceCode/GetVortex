@@ -51,10 +51,10 @@ body {
 
 .getitbutton { 
   grid-area: getitbutton;
-  -webkit-animation: fadeInDel 3s;
-  -moz-animation: fadeInDel 3s;
-  -o-animation: fadeInDel 3s;
-  -ms-animation: fadeInDel 3s;
+  -webkit-animation: fadeInDel 1.2s;
+  -moz-animation: fadeInDel 1.2s;
+  -o-animation: fadeInDel 1.2s;
+  -ms-animation: fadeInDel 1.2s;
 }
 
 .progress { grid-area: progress; }
@@ -89,30 +89,30 @@ body {
 
 @keyframes fadeInDel {
   0% { opacity: 0; }
-  66% { opacity: 0; }
+  50% { opacity: 0; }
   100% { opacity: 1; }
 }
 
 @-moz-keyframes fadeInDel {
   0% { opacity: 0; }
-  66% { opacity: 0; }
+  50% { opacity: 0; }
   100% { opacity: 1; }
 }
 
 @-webkit-keyframes fadeInDel {
   0% { opacity: 0; }
-  66% { opacity: 0; }
+  50% { opacity: 0; }
   100% { opacity: 1; }
 }
 
 @-o-keyframes fadeInDel {
   0% { opacity: 0; }
-  66% { opacity: 0; }
+  50% { opacity: 0; }
   100% { opacity: 1; }
 }
 
 @-ms-keyframes fadeInDel {
   0% { opacity: 0; }
-  66% { opacity: 0; }
+  50% { opacity: 0; }
   100% { opacity: 1; }
 }
