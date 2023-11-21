@@ -51,10 +51,10 @@ body {
 
 .getitbutton { 
   grid-area: getitbutton;
-  -webkit-animation: fadeInDel 1.2s;
-  -moz-animation: fadeInDel 1.2s;
-  -o-animation: fadeInDel 1.2s;
-  -ms-animation: fadeInDel 1.2s;
+  -webkit-animation: fadeInDel 1s;
+  -moz-animation: fadeInDel 1s;
+  -o-animation: fadeInDel 1s;
+  -ms-animation: fadeInDel 1s;
 }
 
 .progress { grid-area: progress; }
