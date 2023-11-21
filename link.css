@@ -26,19 +26,4 @@
 .getitbutton a:hover:before {
   opacity: 1;
   -webkit-transform: scaleX(1);
-
-
-#comingsoon:after {
-  content:"";
-  animation: comingSoonAnim 1s;
-  animation-direction: reverse;
-}
-
-#comingsoon:hover:after {
-  content:"";
-  animation: comingSoonAnim 1s;
-}
-@keyframes comingSoonAnim {
-  0% { content:""; }
-  100% { content:"- Coming Soon"; }
 }
