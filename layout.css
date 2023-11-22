@@ -70,7 +70,12 @@ body {
     "security-image security-text"; 
   grid-area: security; 
 }
-.security-image { grid-area: security-image; }
+.security-image {
+  grid-area: security-image; 
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Example_image.svg/600px-Example_image.svg.png");
+  object-fit: cover;
+  overflow: hidden;
+}
 .securitytext { 
   grid-area: security-text; 
 }
