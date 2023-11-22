@@ -202,11 +202,11 @@ input:checked + .slider {
 }
 
 /*Website*/
-.getitbutton a:before {
+.coollink a:before {
   background-color: whitesmoke;
 }
 
-.getitbutton a {
+.coollink a {
   color: whitesmoke;
 }
 
