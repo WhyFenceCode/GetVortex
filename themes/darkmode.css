@@ -210,6 +210,10 @@ input:checked + .slider {
   color: whitesmoke;
 }
 
+.features-image {
+    background-image: url("1.png");
+}
+
 /*Webiste Text Area*/
 .accent {
     background-color: var(--tabs-background);
