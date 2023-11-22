@@ -210,7 +210,7 @@ input:checked + .slider {
   color: whitesmoke;
 }
 
-/*Webiste Security Area*/
-.securitytext {
+/*Webiste Text Area*/
+.accent {
     background-color: var(--tabs-background);
 }
