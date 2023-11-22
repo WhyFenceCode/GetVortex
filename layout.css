@@ -114,7 +114,7 @@ body {
 }
 
 .hide {
-  transform: translate(10vw);
+  transform: translate(-10vw);
   opacity: 0;
 }
 
