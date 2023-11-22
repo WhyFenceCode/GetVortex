@@ -1,4 +1,4 @@
-.getitbutton a {
+.coollink a {
   text-decoration: none;
   color: fff;
   font-size: 3em;
@@ -8,7 +8,7 @@
   position: relative;
 }
 
-.getitbutton a:before {
+.coollink a:before {
   position: absolute;
   margin: 0 auto;
   top: 100%;
@@ -23,7 +23,7 @@
   transition-duration: .3s;
 }
 
-.getitbutton a:hover:before {
+.coollink a:hover:before {
   opacity: 1;
   -webkit-transform: scaleX(1);
 }
