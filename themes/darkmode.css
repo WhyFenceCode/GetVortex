@@ -214,7 +214,3 @@ input:checked + .slider {
 .securitytext {
     background-color: var(--tabs-background);
 }
-
-.hide {
-    opacity: 0;
-}
