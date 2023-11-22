@@ -92,7 +92,6 @@ body {
 
 .features-image {
   grid-area: features-image; 
-  object-fit: cover;
   overflow: hidden;
 }
 .featurestext { 
