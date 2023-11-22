@@ -80,7 +80,25 @@ body {
   grid-area: security-text; 
 }
 
-.features { grid-area: features; }
+.features {
+  display: grid; 
+  grid-template-columns: 1fr 1fr; 
+  grid-template-rows: 1fr; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    "features-image features-text"; 
+  grid-area: features; 
+}
+
+.features-image {
+  grid-area: features-image; 
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Example_image.svg/600px-Example_image.svg.png");
+  object-fit: cover;
+  overflow: hidden;
+}
+.featurestext { 
+  grid-area: features-text; 
+}
 
 .themes { grid-area: themes; }
 
