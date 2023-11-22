@@ -83,17 +83,14 @@ body {
 
 .footer { grid-area: footer; }
 
-
-
-.hide {
-  opacity: 0;
-}
-
 .scrollopacity {
   opacity: 1;
   transition: opacity 1s;
 }
 
+.hide {
+  opacity: 0;
+}
 
 @keyframes fadeIn {
   0% { opacity: 0; }
