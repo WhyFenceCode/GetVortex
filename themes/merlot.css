@@ -217,3 +217,8 @@ input:checked + .slider {
 .getitbutton a {
   color: whitesmoke;
 }
+
+/*Webiste Text Area*/
+.accent {
+    background-color: var(--tabs-background);
+}
