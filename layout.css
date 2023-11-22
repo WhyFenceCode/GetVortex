@@ -120,6 +120,7 @@ body {
 
 .spaceleft {
   margin-left: 3vw;
+  font-size: 3em;
 }
 
 @keyframes fadeIn {
