@@ -108,13 +108,13 @@ body {
 
 .scrollopacity {
   opacity: 1;
-  /*transform: translate(0vw);*/
+  transform: translate(0vw);
   transition: opacity 0.3s;
-  /*transition: transform 0.3s;*/
+  transition: transform 0.3s;
 }
 
 .hide {
-  /*transform: translate(10vw);*/
+  transform: translate(10vw);
   opacity: 0;
 }
 
