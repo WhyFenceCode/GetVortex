@@ -210,12 +210,16 @@ input:checked + .slider {
 }
 
 /*Website*/
-.getitbutton a:before {
+.coollink a:before {
   background-color: whitesmoke;
 }
 
-.getitbutton a {
+.coollink a {
   color: whitesmoke;
+}
+
+.features-image {
+  background-image: url("../5.png");
 }
 
 /*Webiste Text Area*/
