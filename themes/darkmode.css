@@ -212,7 +212,6 @@ input:checked + .slider {
 
 .features-image {
   background-image: url("../1.png");
-  background-size: contain;
 }
 
 /*Webiste Text Area*/
