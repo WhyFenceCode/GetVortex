@@ -78,7 +78,8 @@ body {
   filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.4));
 }
 .securitytext { 
-  grid-area: security-text; 
+  grid-area: security-text;
+  filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.4));
 }
 
 .features {
@@ -100,6 +101,7 @@ body {
 }
 .featurestext { 
   grid-area: features-text; 
+  filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.4));
 }
 
 .themes { grid-area: themes; }
