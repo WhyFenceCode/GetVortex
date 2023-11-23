@@ -209,10 +209,19 @@ input:checked + .slider {
 }
 
 /*Website*/
-.getitbutton a:before {
+.coollink a:before {
   background-color: black;
 }
 
-.getitbutton a {
+.coollink a {
   color: black;
+}
+
+.features-image {
+  background-image: url("../1.png");
+}
+
+/*Webiste Text Area*/
+.accent {
+    background-color: var(--tabs-background);
 }
