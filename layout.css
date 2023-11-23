@@ -95,6 +95,7 @@ body {
   grid-area: features-image; 
   overflow: hidden;
   background-size: contain;
+  background-repeat: no-repeat;
 }
 .featurestext { 
   grid-area: features-text; 
