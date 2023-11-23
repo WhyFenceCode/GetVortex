@@ -68,7 +68,8 @@ body {
   gap: 0px 0px; 
   grid-template-areas: 
     "security-image security-text"; 
-  grid-area: security; 
+  grid-area: security;
+  box-shadow: 0px 0px 15px 10px rgba(0,0,0,0.75);
 }
 .security-image {
   grid-area: security-image; 
