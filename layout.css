@@ -93,7 +93,7 @@ body {
 
 .features-image {
   grid-area: features-image; 
-  overflow: hidden;
+  /*overflow: hidden;*/
 }
 .featurestext { 
   grid-area: features-text; 
