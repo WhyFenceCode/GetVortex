@@ -96,7 +96,7 @@ body {
   overflow: hidden;
   background-size: contain;
   background-repeat: no-repeat;
-  filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.2));
+  filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.4));
 }
 .featurestext { 
   grid-area: features-text; 
