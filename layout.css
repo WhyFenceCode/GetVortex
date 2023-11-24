@@ -116,6 +116,7 @@ body {
 
 .themes-image {
   grid-area: themes-image; 
+  background-image: url("../1.png");
   overflow: hidden;
   background-size: contain;
   background-repeat: no-repeat;
