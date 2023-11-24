@@ -104,7 +104,27 @@ body {
   filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.4));
 }
 
-.themes { grid-area: themes; }
+.themes {
+  display: grid; 
+  grid-template-columns: 7fr 7fr 1fr; 
+  grid-template-rows: 1fr; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    "themes-image themes-text ."; 
+  grid-area: themes; 
+}
+
+.themes-image {
+  grid-area: themes-image; 
+  overflow: hidden;
+  background-size: contain;
+  background-repeat: no-repeat;
+  filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.4));
+}
+.themestext { 
+  grid-area: themes-text; 
+  filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.4));
+}
 
 .roadmap { grid-area: roadmap; }
 
